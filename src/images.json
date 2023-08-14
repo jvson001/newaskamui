@@ -1,0 +1,36 @@
+{
+    "images": [
+      {
+        "id": 1,
+        "src": "/assets/Component 29 (1).png",
+        "alt": "Image 1"
+      },
+      {
+        "id": 2,
+        "src":  "/assets/image 10 (2).png",
+        "alt": "Image 2"
+      },
+      {
+        "id": 3,
+        "src": "/assets/image 10 (1).png",
+        "alt": "Image 3"
+      },
+      {
+        "id": 4,
+        "src": "/assets/image 10 (3).png",
+        "alt": "Image 4"
+      },
+      {
+        "id": 5,
+        "src": "/assets/image 10.png",
+        "alt": "Image 5"
+      },
+      {
+        "id": 6,
+        "src": "/assets/image 8.png",
+        "alt": "Image 6"
+      }
+
+    ]
+  }
+  
