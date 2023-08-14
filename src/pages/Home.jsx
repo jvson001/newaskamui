@@ -32,9 +32,11 @@ const Home = () => {
         <div className="rectangle" />
         <div className="contain">
           <div className="box">
+            <a href="https://wa.me/+1415523-8886">
             <button className="getStarted">
               <h1 className="getStarted-text">Get Started</h1>
             </button>
+            </a>
             <div className="line-1"></div>
 
             <div className="text-container">
