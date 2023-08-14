@@ -32,7 +32,7 @@ const Home = () => {
         <div className="rectangle" />
         <div className="contain">
           <div className="box">
-            <a href="https://wa.me/+1415523-8886">
+            <a href="https://wa.me/+14155238886">
             <button className="getStarted">
               <h1 className="getStarted-text">Get Started</h1>
             </button>
