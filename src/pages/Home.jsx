@@ -89,6 +89,7 @@ const Home = () => {
             <div className="line-2"></div>
 
             <div className="social-container">
+              <a href="instagram.com/askaam.ai_">
               <button className="instagram">
                 Follow us on Instargram
                 <svg
@@ -140,6 +141,8 @@ const Home = () => {
                   </defs>
                 </svg>
               </button>
+              </a>
+              <a href="https://discord.com/invite/dFEeV3jj">
               <button className="discord">
                 Join our Discord
                 <svg
@@ -156,6 +159,8 @@ const Home = () => {
                   />
                 </svg>
               </button>
+              </a>
+              <a href="https://twitter.com/askam_ai">
               <button className="twitter">
                 Follow us on Twitter
                 <svg
@@ -172,10 +177,13 @@ const Home = () => {
                   />
                 </svg>
               </button>
+              </a>
             </div>
 
             <div className="waitlist-text">
+              <a href="https://u4lyjni796l.typeform.com/to/rpkkLb3n" className="waitlist-link>">
               <h1>Join our wait list for amazing premium features</h1>
+              </a>
             </div>
           </div>
         </div>
