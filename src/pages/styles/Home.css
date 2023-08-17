@@ -149,9 +149,7 @@ a {
   margin-top: 50px;
 }
 
-.inner-footer-container{
-width: 600px;
-}
+
 
 .text-1,
 .text-2 {
@@ -181,7 +179,7 @@ width: 600px;
   color: #ffffff;
   text-align: center;
   font: 500 17px "Poppins", sans-serif;
-  width: 90%;
+  width: 60%;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -272,11 +270,13 @@ footer {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
+  flex-wrap: wrap
 }
 
 .footer-img {
   max-width: 100%;
   height: auto;
+  margin: auto;
 }
 
 .footer-links {
@@ -292,13 +292,32 @@ footer {
   display: flex;
   justify-content: center;
   gap: 20px;
+  width: 600px;
 }
 /* Media queries for responsiveness */
 @media (min-width: 768px) and (max-width: 1100px) {
   .social-container{
     width: 100%;
   }
-
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.text-header-1,
+.text-header-2,
+.text-header-3,
+.text-header-4 {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+ .text-subheader-1,
+ .text-subheader-2,
+ .text-subheader-3,
+ .text-subheader-4 {
+  width: 80%;
+ }
 }
 
 @media screen and (max-width: 768px) {
@@ -356,9 +375,13 @@ footer {
       width: 95%;
       margin: auto;
     }
-    .inner-footer-container{
-      width: 100%;
-      gap: 5px;
+  
+    .footer-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 600px;
     }
     .text-subheader-1,
     .text-subheader-2,
@@ -369,9 +392,9 @@ footer {
         line-height: normal;
         font-size: 15px;
     }
-        .footer-img {
-          width: 150px;
-          margin-right: 1%;
-          height: 81px
-        }
+     .inner-footer-container {
+      justify-content: center;
+      width: 100%;
+     }
+        
 }
