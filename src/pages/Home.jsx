@@ -89,7 +89,7 @@ const Home = () => {
             <div className="line-2"></div>
 
             <div className="social-container">
-              <a href="instagram.com/askaam.ai_">
+              <a href="http://instagram.com/askam.ai_">
               <button className="instagram">
                 Follow us on Instargram
                 <svg
