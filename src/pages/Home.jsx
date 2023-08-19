@@ -9,7 +9,7 @@ const Home = () => {
     <div className="home">
       <div className="header">
         <p className="text-wrapper">
-          Send 10 free messages with Fremium Version Today!
+          Send 50 free messages with Fremium Version Today!
         </p>
       </div>
 
